@@ -8,3 +8,8 @@ function viewDiv(e){
     document.getElementById("text-area").style.display = "block";
 };
 
+$.ajax({
+    url: "http://0.0.0.0:8080/lib/",
+    method: "GET",
+    success: function(resp) {console.log(resp)}
+})
