@@ -244,6 +244,51 @@ input.text{
     top: 853px;
 }
 
+#recommend__book1__name{
+    position: absolute;
+    display:none;
+    width: 274px;
+    height: 274px;
+    left: 269px;
+    top: 853px;
+}
+
+#recommend__book2__name{
+    position: absolute;
+    display:none;
+    width: 274px;
+    height: 274px;
+    left: 543px;
+    top: 853px;
+}
+
+#recommend__book3__name{
+    position: absolute;
+    display:none;
+    width: 274px;
+    height: 274px;
+    left: 823px;
+    top: 853px;
+}
+
+#recommend__book4__name{
+    position: absolute;
+    display:none;
+    width: 274px;
+    height: 274px;
+    left: 1097px;
+    top: 853px;
+}
+
+#recommend__book5__name{
+    position: absolute;
+    display:none;
+    width: 274px;
+    height: 274px;
+    left: 1371px;
+    top: 853px;
+}
+
 
 /* JSON-------------------------------- */
 .json {
@@ -276,7 +321,8 @@ input.text{
     border-radius: 30px;
 }*/
 
-.text-area {
+#text-area {
+    display:none;
     resize: none;
     position: absolute;
     padding: 16px;
@@ -287,6 +333,7 @@ input.text{
     background: #EE043E;
     border-radius: 30px;
     font-size : 20px
+
 }
 
 /* --------------------------------------------------- */
