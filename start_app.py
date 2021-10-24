@@ -25,7 +25,7 @@ def main() -> None:
     app = web.Application()
     setup_routes(app)
     logging.basicConfig(level=logging.DEBUG)
-    web.run_app(app, access_log_class=AccessLogger, port=8080)
+    web.run_app(app, access_log_class=AccessLogger, port=8081)
 
 
 if __name__ == '__main__':

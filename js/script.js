@@ -18,7 +18,7 @@ function viewDiv(e){
     /*viewId();*/
     var first2 = document.getElementById("unique1").value.toString();
     $.ajax({
-        url: "http://0.0.0.0:8080/lib/"+first2,
+        url: "http://0.0.0.0:8081/lib/"+first2,
         method: "GET",
         success: function(resp) {console.log(resp)}
 })
