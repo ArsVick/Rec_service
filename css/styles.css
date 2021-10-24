@@ -180,9 +180,7 @@ input.text{
 
 .input__button{
     position: absolute;
-    width: 7px;
-    height: 7px;
-    left: 975px;
+    left: 985px;
     top: 496px;
 }
 
