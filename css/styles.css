@@ -1,0 +1,332 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #fafafa;
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+/* ---------------------------------------------------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ---------------------------------------------------------------------------- */
+
+._bgr {
+	position: relative;
+}
+
+/* ---ШАПКА------------------------------------------------------------------------- */
+.header {
+	position: relative;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+
+.header__logo {
+    position: absolute;
+    width: 872.5px;
+    height: 81px;
+    left: 524px;
+    top: 8px;
+    bottom: 8px
+    right: 523.5px
+}
+
+.header__background {
+	position: absolute;
+    width: 100%;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+    background: #110932;
+}
+
+/* ---PAGE------------------------------------------------------------------------- */
+
+.page {
+	flex: 1 1 auto;
+}
+.page__main-block {
+}
+
+/* ---ПОДВАЛ------------------------------------------------------------------------- */
+.footer {
+}
+/* ---MAIN-BLOCK------------------------------------------------------------------------- */
+.main-block {
+	position: relative;
+}
+
+.main-block__body {
+	position: relative;
+	z-index: 2;
+
+}
+
+.main-block__title {
+	position: absolute;
+    width: 614px;
+    height: 97px;
+    left: 327px;
+    top: 262px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #F4FAFF;
+
+}
+
+.main-block__text {
+	position: absolute;
+    width: 614px;
+    height: 55px;
+    left: 327px;
+    top: 367px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #FFF4FA;
+}
+
+.main-block__img {
+    position: absolute;
+	width: 764px;
+    height: 375px;
+    left: 975px;
+    top: 150px;
+    bottom: 1943px
+    right: 781px
+}
+
+.main-block__background {
+	position: absolute;
+    width: 100%;
+    height: 424px;
+    left: 0px;
+    top: 101px;
+    background: #EE043E;
+}
+
+/* ----------------input------------------- */
+.input {
+}
+
+.input__background {
+    position: absolute;
+    width: 765px;
+    height: 104px;
+    left: 326px;
+    top: 471px;
+    background: #110932;
+    border-radius: 30px;
+}
+
+input.text{
+    position: relative;
+    padding: 12px 20px;
+    width: 603px;
+    height: 56px;
+    left: 354px;
+    top: 497px;
+    background: #FBF9F9;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.input__button{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 975px;
+    top: 496px;
+}
+
+/* RECCOMEND--------------------------------------------- */
+.recommend {
+}
+
+.recommend__title {
+    position: absolute;
+    width: 370px;
+    height: 47px;
+    left: 775px;
+    top: 764px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: #110932;
+}
+
+.recommend__book1{
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    left: 269px;
+    top: 853px;
+}
+
+.recommend__book2{
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    left: 543px;
+    top: 853px;
+}
+
+.recommend__book3{
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    left: 823px;
+    top: 853px;
+}
+
+.recommend__book4{
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    left: 1097px;
+    top: 853px;
+}
+
+.recommend__book5{
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    left: 1371px;
+    top: 853px;
+}
+
+
+/* JSON-------------------------------- */
+.json {
+}
+
+.json__title {
+    position: absolute;
+    width: 195px;
+    height: 47px;
+    left: 862px;
+    top: 1234px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: #110932;
+}
+
+/*.json__file{
+    resize: none;
+    position: absolute;
+    width: 695px;
+    height: 620px;
+    left: 613px;
+    top: 1371px;
+    background: #EE043E;
+    border-radius: 30px;
+}*/
+
+.text-area {
+    resize: none;
+    position: absolute;
+    padding: 16px;
+    width: 695px;
+    height: 620px;
+    left: 613px;
+    top: 1371px;
+    background: #EE043E;
+    border-radius: 30px;
+    font-size : 20px
+}
+
+/* --------------------------------------------------- */
+
+.footer {
+}
+
+.footer__background {
+    position: absolute;
+    width: 100%;
+    height: 389px;
+    left: 0px;
+    top: 2079px;
+    background: #110932;
+}
+
+.footer__title {
+    position: absolute;
+    width: 413px;
+    height: 56px;
+    left: 753px;
+    top: 2153px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #EE043E;
+}
+
+.footer__git {
+    position: absolute;
+    left: 918px;
+    right: 903px;
+    top: 2274px;
+    bottom: 95px;
+
+}
+
