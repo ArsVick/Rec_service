@@ -8,6 +8,11 @@ function viewDiv(e){
     document.getElementById("text-area").style.display = "block";
 };
 
+function XX(){
+    var first2 = document.getElementById("user_id").value;
+};
+
+
 $.ajax({
     url: "http://0.0.0.0:8080/lib/",
     method: "GET",
